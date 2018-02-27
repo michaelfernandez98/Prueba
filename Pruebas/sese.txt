@@ -1,0 +1,15 @@
+pedir la altura por prompt de un triangulo equilatero e informar el perimetro
+ y la superficie.
+
+motrar le importe final, pedir precio y porcentaje de descuento,
+
+ingreso 3 numero muestro el promedio
+
+cuantos pares e impares ay el promedio de los positivos y el maximo y el minimo
+
+
+se va pedir hasta q el cliente quiera una letra, validar q sea una letra no puede ser un numero 
+e ingresar numero entre -200 y 200 inclusive 
+mostrar la letra del numero mas bajo
+el promedio de todos los numenros que se ingresaron despues de una vocal
+la letra de maximo y la letra del minimo
