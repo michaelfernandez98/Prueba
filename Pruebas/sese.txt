@@ -1,9 +1,12 @@
 pedir la altura por prompt de un triangulo equilatero e informar el perimetro
  y la superficie.
 
+
 motrar le importe final, pedir precio y porcentaje de descuento,
 
+
 ingreso 3 numero muestro el promedio
+
 
 cuantos pares e impares ay el promedio de los positivos y el maximo y el minimo
 
