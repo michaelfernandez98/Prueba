@@ -1,19 +1,16 @@
 function Mostrar()
 {
-  //Mostrar le importe final, pedir precio y porcentaje de descuento.
-  	var precio;
-  	var descuento;
-  	var importefinal;
+  var importe;
+  var importefinal;
+  var aumento;
 
-  	precio=prompt("Ingrese el precio");
-  	precio=parseInt(precio);
+  importe=prompt("Ingrese el importe del producto:");
+  importe=parseInt(importe);
 
-  	descuento=prompt("Ingrese el descuento ");
-  	descuento=parseInt(descuento);
+  aumento=1.21;
 
-  	importefinal =precio%descuento;
-  	importefinal=parseInt(importefinal);
+  importefinal=importe*aumento;
 
-  	document.getElementById('importeFinal').value=importefinal;
-
+  document.getElementById('importeFinal').value=importefinal;
+  
 }

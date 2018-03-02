@@ -2,105 +2,36 @@ function Mostrar()
 {
 	var numero1;
 	var numero2;
-	var numero3;
-	var maximo;
-	var minimo;
+	var multiplicacion;
+	var suma;
+	var resta;
+	var total;
 
-	numero1=prompt("Ingrese numero:");
+
+	numero1=prompt("Ingrese el primer numero:");
 	numero1=parseInt(numero1);
 
-	numero2=prompt("Ingrese numero:");
+	numero2=prompt("Ingrese el segundo numero:");
 	numero2=parseInt(numero2);
 
-	numero3=prompt("Ingrese numero:");
-	numero2=parseInt(numero3);
-
-	if (numero1>numero3&&numero2<numero1) 
+	if (numero1==numero2) 
 	{
-		alert(numero1);
+		multiplicacion=numero1*numero2;
+		total="El resultado de esta multilplicacion es: "+multiplicacion;	
 	}
 	else
 	{
-		if (numero2>numero1&&numero3<numero2) 
+		if (numero1>numero2) 
 		{
-			alert(numero2);
+			resta=numero1-numero2;
+			total="El resultado de esta resta es: "+resta;
 		}
 		else
-			{ 
-				alert(numero3);
-			}
+		{
+			suma=numero1+numero2;
+			total="El resultado de esta suma es: "+suma;
+		}
 	}
-	if (numero1<numero3&&numero2>numero1)
-	{
-		alert(numer
-	}
+
+	document.write(total);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*	var max;
-	var min;
-	var respuesta='si';
-	var contador=0;
-
-	while(true)
-	{
-		
-		respuesta= prompt("Ingrese los números");
-
-		if (respuesta== "no") {
-			break;
-		}
-
-		else{
-			contador ++;
-			respuesta=parseInt(respuesta);
-
-			if (contador==1) {
-				max=respuesta;
-				min=respuesta;
-
-			}
-			else{
-				if(respuesta>max){
-					max=respuesta;
-				}
-				if (respuesta<min) {
-					min=respuesta;
-				}
-			}
-		}
-		
-	confirm(true);
-	}
-
-	document.getElementById("maximo").value=max;
-	document.getElementById("minimo").value=min;
-*/

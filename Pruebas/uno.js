@@ -1,24 +1,14 @@
 
 function Mostrar()
 {
-	/*Pedir la altura por prompt de un triangulo equilatero 
-	e informar el perimetro y la superficie.*/
-	var altura;
-	var perimetro;
-	var superficie;
-	var lado1;
-	var lado2;
-	var lado3;
+ var perimetro;
+ var base;
 
-	altura=prompt("Ingrese la altura");
-	//altura=parseInt(altura);
-	altura=lado1&&lado2&&lado3;
+ base=document.getElementById('laBase').value;
+ base=parseInt(base);
 
-	perimetro=lado1+lado2+lado3;
-	//perimetro=parseInt(perimetro);
+ perimetro=base*4;
 
-	superficie=
+ alert("El perimetro de el cuadrado es: "+perimetro);
 
-	document.getElementById('elPerimetro').value=perimetro;
-	document.getElementById('laSuperficie').value=superficie;
 }

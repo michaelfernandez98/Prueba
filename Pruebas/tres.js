@@ -1,23 +1,21 @@
 function Mostrar()
 {
-	var numero1;
-	var numero2;
-	var numero3;
-	var promedio;
-	var total;
+	var largo;
+	var ancho;
+	var perimetro;
+	var perimetroportreshilos;
 
-	numero1=prompt("Ingrese numero:");
-	numero1=parseInt(numero1);
+	largo=document.getElementById('largo').value;
+	largo=parseInt(largo);
 
-	numero2=prompt("Ingrese numero:");
-	numero2=parseInt(numero2);
+	ancho=document.getElementById('ancho').value;
+	ancho=parseInt(ancho);
 
-	nuemro3=prompt("Ingrese numero:");
-	numero2=parseInt(numero3);
+	perimetro=ancho*largo;
+	perimetroportreshilos=perimetro*3;
 
-	total=numero1+numero2+numero3;
+	alert("Se necesitan "+perimetroportreshilos+" metros de alambre.");
 
-	promedio=total/3;
 
-	document.write(promedio);
+
 }
